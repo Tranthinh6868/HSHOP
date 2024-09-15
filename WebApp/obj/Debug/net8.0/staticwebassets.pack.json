@@ -1,0 +1,1397 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\Loai11.jpeg",
+      "PackagePath": "staticwebassets\\images\\Loai11.jpeg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\Loaiimages.jpeg",
+      "PackagePath": "staticwebassets\\images\\Loaiimages.jpeg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Accept.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Accept.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Alarm.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Alarm.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Anchor.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Anchor.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Bell.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Bell.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Best.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Best.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Billboard.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Billboard.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Bomb.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Bomb.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Brick house.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Brick house.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Bricks.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Bricks.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Buddy.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Buddy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Certificate.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Certificate.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Dice.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Dice.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Dollar.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Dollar.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Favourites.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Favourites.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Funny.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Funny.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Heart.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Heart.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Microsoft.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Microsoft.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\Unlock.png",
+      "PackagePath": "staticwebassets\\images\\categories\\Unlock.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\categories\\agenda_1.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\agenda_1.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\customers\\Author.jpg",
+      "PackagePath": "staticwebassets\\images\\customers\\Author.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\customers\\Penguins.jpg",
+      "PackagePath": "staticwebassets\\images\\customers\\Penguins.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\customers\\android_300200.png",
+      "PackagePath": "staticwebassets\\images\\customers\\android_300200.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\customers\\man.jpg",
+      "PackagePath": "staticwebassets\\images\\customers\\man.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\customers\\woman.jpg",
+      "PackagePath": "staticwebassets\\images\\customers\\woman.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\divider.gif",
+      "PackagePath": "staticwebassets\\images\\divider.gif"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Accept.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Accept.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Add to basket.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Add to basket.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Add.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Add.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Address book.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Address book.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Alarm.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Alarm.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Anchor.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Anchor.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Application form.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Application form.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bar chart.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bar chart.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Basket.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Basket.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bell.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bell.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Best.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Best.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Billboard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Billboard.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bluetooth.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bluetooth.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bomb.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bomb.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Book.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Book.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bookmark.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bookmark.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Box.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Box.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Boy.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Boy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Brick house.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Brick house.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bricks.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bricks.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Brief case.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Brief case.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Brightness.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Brightness.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Bubble.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Bubble.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Buddy.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Buddy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Cable.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Cable.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Calculator.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Calculator.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Calendar.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Calendar.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Call.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Call.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Camera.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Camera.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Card file.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Card file.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Cash register.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Cash register.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Cat.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Cat.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Certificate.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Certificate.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Clien list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Clien list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Clipboard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Clipboard.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Clock.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Clock.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Closed door.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Closed door.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Closed folder.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Closed folder.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Coin.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Coin.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Coins.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Coins.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Color wheel.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Color wheel.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Comment.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Comment.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Comments.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Comments.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Company.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Company.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Computer.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Computer.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Conference.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Conference.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Connect.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Connect.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Construction.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Construction.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Contrast.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Contrast.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Control panel.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Control panel.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Create.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Create.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Database.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Database.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Date.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Date.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Delete.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Delete.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Desktop.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Desktop.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Diagram.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Diagram.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Dice.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Dice.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Disconnect.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Disconnect.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Discussion.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Discussion.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Document.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Document.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Documents.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Documents.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Dog.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Dog.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Dollar.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Dollar.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Down.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Down.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Download.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Download.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Edit.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Edit.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Euro.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Euro.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Exit button.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Exit button.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Exit.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Exit.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Favourites.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Favourites.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Fax.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Fax.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Flash drive.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Flash drive.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Flow block.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Flow block.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Free.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Free.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Friends.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Friends.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Full basket.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Full basket.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Funny.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Funny.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Game controller.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Game controller.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Gear.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Gear.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Genealogy.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Genealogy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Gift.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Gift.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Girl.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Girl.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Globe.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Globe.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Handshake.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Handshake.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Happy.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Happy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Hard disk.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Hard disk.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Heart.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Heart.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Help.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Help.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Hierarchy.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Hierarchy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Home.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Home.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Hungup.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Hungup.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Industry.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Industry.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Info.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Info.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Key.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Key.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Label.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Label.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Left.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Left.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Lego brick.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Lego brick.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Letter.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Letter.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\List.png",
+      "PackagePath": "staticwebassets\\images\\icons\\List.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Lists.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Lists.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Lock.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Lock.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Log out.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Log out.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Login.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Login.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Mail.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Mail.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Microsoft.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Microsoft.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Mobile phone.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Mobile phone.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Money.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Money.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Monitor.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Monitor.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Mouse.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Mouse.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Music.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Music.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\No.png",
+      "PackagePath": "staticwebassets\\images\\icons\\No.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Notes.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Notes.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Numbered list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Numbered list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\OK.png",
+      "PackagePath": "staticwebassets\\images\\icons\\OK.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Online.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Online.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Open door.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Open door.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Open file.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Open file.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Open folder.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Open folder.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Open letter.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Open letter.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Open lock.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Open lock.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Payment.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Payment.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Peace.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Peace.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Pets.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Pets.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Phone.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Phone.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Piggy bank.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Piggy bank.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Piggy.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Piggy.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Pointer.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Pointer.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Pound.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Pound.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Price list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Price list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Print preview.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Print preview.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Print.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Print.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Printer.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Printer.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Problem.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Problem.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Properties.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Properties.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\RSS.png",
+      "PackagePath": "staticwebassets\\images\\icons\\RSS.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Red star.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Red star.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Refresh.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Refresh.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Remove from basket.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Remove from basket.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Report.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Report.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Right.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Right.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Rouble.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Rouble.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Sad.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Sad.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Safe.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Safe.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Save as.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Save as.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Save.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Save.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Scroll list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Scroll list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Search.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Search.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Shield.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Shield.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Smile.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Smile.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Software.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Software.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Statistics.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Statistics.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Stop.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Stop.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Task list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Task list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Telephone.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Telephone.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Text.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Text.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Tick.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Tick.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\To do list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\To do list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Trash.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Trash.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Unknown person.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Unknown person.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Unlock.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Unlock.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Unordered list.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Unordered list.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Up.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Up.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Upload.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Upload.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\User group.png",
+      "PackagePath": "staticwebassets\\images\\icons\\User group.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\User.png",
+      "PackagePath": "staticwebassets\\images\\icons\\User.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Users.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Users.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Wallet.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Wallet.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Warning.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Warning.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Weather.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Weather.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Wireless.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Wireless.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Wizard.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Wizard.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Yen.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Yen.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Yin-Yang.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Yin-Yang.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Zoom in.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Zoom in.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Zoom out.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Zoom out.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\Zoom.png",
+      "PackagePath": "staticwebassets\\images\\icons\\Zoom.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\eng.gif",
+      "PackagePath": "staticwebassets\\images\\icons\\eng.gif"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\icons\\vit.gif",
+      "PackagePath": "staticwebassets\\images\\icons\\vit.gif"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\others\\shopping_cart.png",
+      "PackagePath": "staticwebassets\\images\\others\\shopping_cart.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\1009.gif",
+      "PackagePath": "staticwebassets\\images\\products\\1009.gif"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\21meTyhQebL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\21meTyhQebL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31EPGSm2s1L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31EPGSm2s1L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31LAnW1JFqL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31LAnW1JFqL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31TB6tC6BOL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31TB6tC6BOL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31YOss-gC-L._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31YOss-gC-L._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31hCgES5GXL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31hCgES5GXL._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31ioCUUFnoL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31ioCUUFnoL.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31jsjfVfH9L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31jsjfVfH9L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31ncPnMYCxL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31ncPnMYCxL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31pAGovVENL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31pAGovVENL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31pT+SdvQXL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31pT+SdvQXL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\31yxRemzRLL._SS350_ (1).jpg",
+      "PackagePath": "staticwebassets\\images\\products\\31yxRemzRLL._SS350_ (1).jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41-yvkFqVZL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41-yvkFqVZL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\410PjzqoC8L._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\410PjzqoC8L._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\415cOCbey.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\415cOCbey.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\415cOCbeyML.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\415cOCbeyML.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\416OcTXFfeL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\416OcTXFfeL._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\416pdroSEkL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\416pdroSEkL.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\419WCoqfamL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\419WCoqfamL._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41A9R5KXCXL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41A9R5KXCXL._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41BiMx1FKyL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41BiMx1FKyL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41CIcYRxJKL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41CIcYRxJKL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41G38jC0ajL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41G38jC0ajL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41GVLtgNngL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41GVLtgNngL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41IPLmZIKhL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41IPLmZIKhL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41KALboJKuL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41KALboJKuL.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41LMouG6j7L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41LMouG6j7L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41MJUdI2jdL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41MJUdI2jdL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41Pg1ahql8L._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41Pg1ahql8L._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41RxtSQOd2L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41RxtSQOd2L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41TexqWVkHL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41TexqWVkHL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41V4Ds2PtZL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41V4Ds2PtZL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41WvZnGYUkL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41WvZnGYUkL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41XX7Pi240L.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41XX7Pi240L.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41Ymq8fjbOL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41Ymq8fjbOL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41Z43OmFHjL._SX342_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41Z43OmFHjL._SX342_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41ZE9SmWdzL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41ZE9SmWdzL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41brDHtPY9L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41brDHtPY9L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41iDo0HDhbL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41iDo0HDhbL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41iji4-9UsL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41iji4-9UsL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41lffECD-sL._SY445_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41lffECD-sL._SY445_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41qfgTvFBwL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41qfgTvFBwL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41qlcUEhNmL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41qlcUEhNmL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41riQRGf-6L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41riQRGf-6L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41sd2DTD8EL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41sd2DTD8EL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41sdBTtnUDL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41sdBTtnUDL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41sl3FN6NpL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41sl3FN6NpL.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41sw9ASUvBL._SX342_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41sw9ASUvBL._SX342_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41w4TlVPhGL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41w4TlVPhGL.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41wHu2N4tVL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41wHu2N4tVL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41yh1vBmqsL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41yh1vBmqsL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\41zxxR71G+L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\41zxxR71G+L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51+4d3VBFvL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51+4d3VBFvL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\513UnnRfFML._SL1001_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\513UnnRfFML._SL1001_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\515p1IeP0-L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\515p1IeP0-L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\5195-l+nflL._AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\5195-l+nflL._AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51GBNkHO6vL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51GBNkHO6vL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51JhyHtnEgL._SL1001_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51JhyHtnEgL._SL1001_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51Lj5bxbNtL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51Lj5bxbNtL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51Z9tfgl4aL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51Z9tfgl4aL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51czOOat0OL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51czOOat0OL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51l46qQB50L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51l46qQB50L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51nukXFJLJL.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51nukXFJLJL.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51pvLIvb6ZL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51pvLIvb6ZL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51s6pbRlNyL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51s6pbRlNyL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51uJ-pWfc9L._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51uJ-pWfc9L._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51vxcBS1sQL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51vxcBS1sQL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51w+JqOnmSL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51w+JqOnmSL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51y46IslQkL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51y46IslQkL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\51yomC0EodL._SL500_AA300_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\51yomC0EodL._SL500_AA300_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\71bJrFAys9L._SL1280_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\71bJrFAys9L._SL1280_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\71cBwWAgvIL._SL1430_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\71cBwWAgvIL._SL1430_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\816zGZv1ORL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\816zGZv1ORL._SL1500_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\81Q1DvOnnoL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\81Q1DvOnnoL._SL1500_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\81k1XbQ6nQL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\81k1XbQ6nQL._SL1500_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\91FM0Hog9FL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\91FM0Hog9FL._SL1500_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\91JUBDf1jTL._AA1500_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\91JUBDf1jTL._AA1500_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\91T2BjUkYmL._SL1500_.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\91T2BjUkYmL._SL1500_.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\Camera1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\Camera1.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\products\\To.gif",
+      "PackagePath": "staticwebassets\\images\\products\\To.gif"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\Acer_logo-300x300.gif",
+      "PackagePath": "staticwebassets\\images\\suppliers\\Acer_logo-300x300.gif"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\amd-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\amd-logo.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\apple.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\apple.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\dell-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\dell-logo.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\dell-logo2.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\dell-logo2.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\hp-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\hp-logo.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\intel-logo.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\intel-logo.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\motorola.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\motorola.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\nokia.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\nokia.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\samsung-logo-2.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\samsung-logo-2.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\samsung.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\samsung.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\shopping_cart.png",
+      "PackagePath": "staticwebassets\\images\\suppliers\\shopping_cart.png"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\suppliers\\sonny-ericsson.jpg",
+      "PackagePath": "staticwebassets\\images\\suppliers\\sonny-ericsson.jpg"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebApp.props",
+      "PackagePath": "build\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApp.props",
+      "PackagePath": "buildMultiTargeting\\WebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebApp.props",
+      "PackagePath": "buildTransitive\\WebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

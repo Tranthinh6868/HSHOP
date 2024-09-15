@@ -1,0 +1,31 @@
+@model Invoice
+<form  method="post">
+    <div>
+        <label asp-for="Fullname">FullName</label>
+        <div>
+            <input type="text" asp-for="Fullname">
+        </div>
+    </div>
+    <div>
+        <label asp-for="Email">Email</label>
+        <div>
+            <input type="email" asp-for="Email">
+        </div>
+    </div>
+    <div>
+        <label asp-for="Phone">Phone</label>
+        <div>
+            <input type="number" asp-for="Phone">
+        </div>
+    </div>
+    <div>
+        <label asp-for="Address">Address</label>
+        <div>
+            <input type="text" asp-for="Address">
+        </div>
+    </div>
+    <div>
+        <button>Checkout</button>
+    </div>
+    
+</form>

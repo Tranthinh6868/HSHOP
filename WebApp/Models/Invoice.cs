@@ -1,0 +1,11 @@
+namespace WebApp.Models;
+public class Invoice{
+    
+    public string CartCode {get;set;} = null!;
+    public long InvoiceId {get; set;}
+    public string Fullname {get; set;} = null!;
+    public string Phone {get; set;} = null!;
+    public string Email {get; set;} = null!;
+    public string Address {get; set;} = null!;
+
+}
