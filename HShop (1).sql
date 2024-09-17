@@ -188,10 +188,11 @@ CREATE TABLE InvoiceDetail(
 GO
 CREATE TABLE Invoice(
 	InvoiceId BIGINT NOT NULL PRIMARY KEY,
-	Fullnam NVARCHAR (64) NOT NULL,
+	Fullname NVARCHAR (64) NOT NULL,
 	Email VARCHAR(64) NOT NULL,
 	Address NVARCHAR(64) NOT NULL,
-	Phone VARCHAR(16) NOT NULL
+	Phone VARCHAR(16) NOT NULL,
+	InvoiceDate DateTime NOT NULL DEFAULT GETDATE()
 );
 GO
 CREATE TABLE InvoiceDetail(
@@ -207,11 +208,13 @@ CREATE PROC AddInvoice(
 	@Fullname nvarchar(64) ,
 	@Email varchar(64) ,
 	@Address nvarchar(64) ,
-	@Phone varchar(16) 
+	@Phone varchar(16) ,
+	@Amount DECIMAL OUT
 
 )
 AS 
 BEGIN
+	SELECT @Amount = SUM(Cart.Quantity * Product.Price) FROM Cart JOIN Product ON Cart.ProductId = Product.ProductId AND CartCode = @CartCode
 	INSERT INTO Invoice(InvoiceId , Fullname, Email, Address , Phone) 
 		VALUES (@InvoiceId , @Fullname, @Email, @Address , @Phone)
 	INSERT INTO InvoiceDetail(InvoiceId, ProductId, Quantity , Price)
@@ -222,3 +225,16 @@ END
 
 
 )
+CREATE TABLE VnPayment(	    
+    Amount BIGINT,
+     BankCode VARCHAR(128),
+     BankTranNo VARCHAR(128),
+     CardType VARCHAR(128),
+     OrderInfo VARCHAR(128),
+     PayDate VARCHAR(128),
+     ResponseCode VARCHAR(128),
+     TmnCode VARCHAR(128),
+     TransactionNo VARCHAR(128),
+     TransaactionStatus VARCHAR(128),
+     TxnRef VARCHAR(128),
+);

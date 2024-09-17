@@ -65,3 +65,4 @@ C:\Data\CSharp\HSHOP\WebApp\obj\Debug\net8.0\WebApp.pdb
 C:\Data\CSharp\HSHOP\WebApp\obj\Debug\net8.0\WebApp.genruntimeconfig.cache
 C:\Data\CSharp\HSHOP\WebApp\obj\Debug\net8.0\ref\WebApp.dll
 C:\Data\CSharp\HSHOP\WebApp\bin\Debug\net8.0\WebApp.staticwebassets.runtime.json
+C:\Data\CSharp\HSHOP\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json

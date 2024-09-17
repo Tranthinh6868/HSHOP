@@ -1,3 +1,6 @@
+using System.Security.Cryptography;
+using System.Text;
+
 namespace WebApp;
 public static class Helper{
     public static string RandomString(int len){
@@ -8,5 +11,9 @@ public static class Helper{
             arr[i] = pattern[random.Next(pattern.Length)];
         }
         return string.Join(string.Empty, arr); // string.Empty =""
+    }
+    public static string HmacSha512(string plaintext, string key){
+        using HMACSHA512 hMACSHA = new  HMACSHA512(Encoding.ASCII.GetBytes(key));
+        return Convert.ToHexString(hMACSHA.ComputeHash(Encoding.UTF8.GetBytes(plaintext)));
     }
 } 

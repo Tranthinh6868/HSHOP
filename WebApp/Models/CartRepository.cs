@@ -13,4 +13,8 @@ public class CartRepository : BaseRepository{
         return connection.Query<Cart> ("SELECT Cart.*, Price, Image, ProductName FROM Cart JOIN Product ON Cart.ProductId = Product.ProductId AND CartCode = @Code", new {code} );
 
     }
+    public decimal GetAmount(string code){
+        string sql = "SELECT SUM(Cart.Quantity * Product.Price) FROM Cart JOIN Product ON Cart.ProductId = Product.ProductId AND CartCode = @Code";
+        return connection.ExecuteScalar<decimal>(sql, new{code});
+    }
 }

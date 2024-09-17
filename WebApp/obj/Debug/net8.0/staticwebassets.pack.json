@@ -1377,6 +1377,14 @@
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\jquery-3.7.1.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.js"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

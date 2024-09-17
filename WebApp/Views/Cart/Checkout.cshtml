@@ -1,5 +1,5 @@
 @model Invoice
-<form  method="post">
+<form name="frm"  method="post">
     <div>
         <label asp-for="Fullname">FullName</label>
         <div>
@@ -26,6 +26,15 @@
     </div>
     <div>
         <button>Checkout</button>
+        @* <a href="/cart/vnpayment">Pay with VN Payment</a> *@
+        <button type = "button" id="btnVnPayment">Pay with VN Payment</button>
     </div>
     
 </form>
+
+<Script>
+    $(btnVnPayment).click(function(){
+        $(frm).attr('action', '/cart/vnpayment');
+        $(frm).submit();
+    });
+</Script>

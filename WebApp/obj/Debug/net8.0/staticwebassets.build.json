@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p8vHwKKgWp4W/NMjx5JBwqkVrWmnVfc1Uvf4iS0wSUw=",
+  "Hash": "ZItLxNuvz8TAvm3MwA+OuQe206uMtujF8dCRS74wQIM=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -6551,6 +6551,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Identity": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\jquery-3.7.1.js",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/jquery-3.7.1.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.7.1.js"
+    },
+    {
+      "Identity": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "js/jquery-3.7.1.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.7.1.min.js"
     }
   ]
 }

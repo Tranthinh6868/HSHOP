@@ -8,9 +8,12 @@ public class SiteProvider : BaseProvider {
     CartRepository ? cart;
     
     InvoiceRepository ? invoice;
+
+    VnPaymentRespository? vnPayment;
     public CategoryRepository Category => category ??= new CategoryRepository(Connection);
     public ProductRepository Product => product ??= new ProductRepository(Connection);
 
     public CartRepository Cart => cart ??= new CartRepository(Connection);
     public InvoiceRepository Invoice => invoice ??= new InvoiceRepository(Connection);
+    public VnPaymentRespository VnPayment => vnPayment ??= new VnPaymentRespository(Connection);
 }
