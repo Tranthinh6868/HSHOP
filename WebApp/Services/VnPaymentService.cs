@@ -38,7 +38,7 @@ public class VnPaymentService{
         if(accessor.HttpContext != null && accessor.HttpContext.Connection.RemoteIpAddress != null){
             dict["vnp_IpAddr"] = accessor.HttpContext.Connection.RemoteIpAddress.ToString();
             //dict["vnp_IpAddr"] = "127.0.0.1";
-           System.Console.WriteLine(dict["vnp_IpAddr"]);
+           //System.Console.WriteLine(dict["vnp_IpAddr"]);
            
         }
         string queryString  = string.Join("&", dict.Select(p=> $"{p.Key} = {WebUtility.UrlEncode(p.Value)}"));

@@ -7,6 +7,12 @@ public class InvoiceRepository : BaseRepository{
     public InvoiceRepository(IDbConnection connection) : base(connection){
 
     }
+
+  
+
+    public Invoice? GetInvoice(long id){
+        return connection.QuerySingleOrDefault<Invoice>("SELECT * FROM Invoice WHERE InvoiceId = @Id", new{id});
+    }
     public int Add(Invoice obj){
         Random random = new Random();
         obj.InvoiceId = random.NextInt64(99999999, long .MaxValue);

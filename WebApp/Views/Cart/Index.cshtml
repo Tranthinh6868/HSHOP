@@ -1,42 +1,80 @@
 @model IEnumerable<Cart>
-    <table class = "table table-bordered">
-        <thead class ="table-dark" >
-            <tr>
-                <th>Procduct</th>
-                <th>Image</th>
-                <th>Price</th>
-                <th>Quantity</th>
-                <th>Amount</th>
-                <th>Command</th>
-            </tr>
+<div class="row">
+    <div class = "col-10">
+        <table class = "table table-bordered">
+                <thead class ="table-dark" >
+                    <tr>
+                    
+                        <th>Procduct</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Amount</th>
+                        <th>Command</th>
+                    </tr>
 
-        </thead>
-        <tbody>
-            @foreach(var item in Model){
-                <tr>
-                    <td>@item.ProductName</td>
-                    <td>
-                        <img class='img-thumbnail' src="/images/products/@item.Image"  alt="@item.ProductName">
-                    </td>
-                    <td>@item.Price</td>
-                    <td>@item.Quantity</td>
-                    <td>@(item.Price * @item.Quantity)</td>
-                    <td>    
-                        <a href="/cart/delete/@item.ProductId">Delete</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-        <tfoot>
-            <tr>
-                <th class="text-center" colspan="5">
-                    Total
-                </th>
-                <th>
-                    @(Model.Sum(p=> p.Price * p.Quantity))
-                </th>
-            </tr>
-        </tfoot>
-    </table>
-    <a class="btn btn-outline-primary"  href="/">Back to homepage</a>
-    <a class="btn btn-outline-primary"  href="/cart/checkout">Checkout</a>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model){
+                        <tr val=@item.ProductId>
+                            <td>
+                                <input type="checkbox" @(item.Checked?"checked":"") value="@item.ProductId">
+                            </td>
+                            <td>@item.ProductName</td>
+                            <td>
+                                <img width ="100" class='img-thumbnail' src="/images/products/@item.Image"  alt="@item.ProductName">
+                            </td>
+                            <td>@item.Price</td>
+                            <td>
+                                <input class="form-control qty" type="number" min="1" max="15"  value="@item.Quantity">
+                            </td>
+                            <td>@(item.Price * @item.Quantity)</td>
+                            <td>    
+                                <a href="/cart/delete/@item.ProductId">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="text-center" colspan="5">
+                            Total
+                        </th>
+                        <th>
+                            @(Model.Sum(p=> p.Price * p.Quantity))
+                        </th>
+                    </tr>
+                </tfoot>
+        </table>
+    </div>
+    <div class="col-2">
+        <h4>Thanh toán giỏ hàng</h4>
+        <p>Tổng tiền: <b id="total">@(Model.Where(p=>p.Checked).Sum(p=>p.Quantity * p.Price))</b></p>
+        <a class="btn btn-outline-primary"  href="/">Back to homepage</a>
+        <a class="btn btn-outline-primary"  href="/cart/checkout">Checkout</a>
+    </div>
+</div>    
+
+
+    <script>
+        $('input[type="checkbox"]').click(function(){
+            //let pid = $(this).closest('tr').attr('val');
+            let pid =$(this).val();
+            $.post('/cart/check',{'productId': pid}, (d) => {
+                console.log(d);
+                window.location.reload();
+            });
+        });
+        if($(total).text() == '0'){
+            $('a[href="/cart/checkout"]').hide();
+        }
+
+        $('.qty').change(function(){
+            let qty = $(this).val();
+            let pid = $(this).closest('tr').attr('val');
+            $.post('/cart/edit',{'productId':pid, 'quantity':qty}, (d)=>{
+                console.log(d);
+                window.location.reload();
+            });
+        });
+    </script>

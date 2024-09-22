@@ -9,5 +9,6 @@ public class Invoice{
     public string Address {get; set;} = null!;
     public decimal Amount {get; set;}
     public DateTime InvoiceDate {get;set;}
+    public IEnumerable<InvoiceDetails>? InvoiceDetails {get; set;}
 
 }

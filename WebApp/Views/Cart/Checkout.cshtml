@@ -1,36 +1,81 @@
 @model Invoice
-<form name="frm"  method="post">
-    <div>
-        <label asp-for="Fullname">FullName</label>
-        <div>
-            <input type="text" asp-for="Fullname">
-        </div>
+<div class="row">
+    <div class="col-4">
+        <form name="frm"  method="post">
+            <div >
+                <label class="form-label" asp-for="Fullname">FullName</label>
+                <div>
+                    <input class="form-control" type="text" asp-for="Fullname">
+                </div>
+            </div>
+            <div>
+                <label class="form-label" asp-for="Email">Email</label>
+                <div>
+                    <input class="form-control" type="email" asp-for="Email">
+                </div>
+            </div>
+            <div>
+                <label class="form-label" asp-for="Phone">Phone</label>
+                <div>
+                    <input class="form-control" type="number" asp-for="Phone">
+                </div>
+            </div>
+            <div>
+                <label class="form-label" asp-for="Address">Address</label>
+                <div>
+                    <input class="form-control" type="text" asp-for="Address">
+                </div>
+            </div>
+            <div class="mt-2">
+                <button class="btn btn-primary">Checkout</button>
+                @* <a href="/cart/vnpayment">Pay with VN Payment</a> *@
+                <button class="btn btn-primary" type = "button" id="btnVnPayment">Pay with VN Payment</button>
+                <a href="/cart" class="btn btn-outline-primary">Back to Cart</a>
+            </div>
+            
+        </form>
     </div>
-    <div>
-        <label asp-for="Email">Email</label>
-        <div>
-            <input type="email" asp-for="Email">
-        </div>
+    <div class="col-8">
+        <table class = "table table-bordered">
+                <thead class ="table-dark" >
+                    <tr>
+                        <th>Procduct</th>
+                        <th>Image</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Amount</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @foreach(var item in ViewBag.Carts){
+                        <tr val=@item.ProductId>
+                            <td>@item.ProductName</td>
+                            <td>
+                                <img width ="100" class='img-thumbnail' src="/images/products/@item.Image"  alt="@item.ProductName">
+                            </td>
+                            <td>@item.Price</td>
+                            <td>
+                               @item.Quantity
+                            </td>
+                            <td>@(item.Price * @item.Quantity)</td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th class="text-center" colspan="4">
+                            Total
+                        </th>
+                        <th>
+                            @ViewBag.Total
+                        </th>
+                    </tr>
+                </tfoot>
+        </table>
     </div>
-    <div>
-        <label asp-for="Phone">Phone</label>
-        <div>
-            <input type="number" asp-for="Phone">
-        </div>
-    </div>
-    <div>
-        <label asp-for="Address">Address</label>
-        <div>
-            <input type="text" asp-for="Address">
-        </div>
-    </div>
-    <div>
-        <button>Checkout</button>
-        @* <a href="/cart/vnpayment">Pay with VN Payment</a> *@
-        <button type = "button" id="btnVnPayment">Pay with VN Payment</button>
-    </div>
-    
-</form>
+
+</div>
 
 <Script>
     $(btnVnPayment).click(function(){

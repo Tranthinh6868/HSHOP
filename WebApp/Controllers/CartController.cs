@@ -7,6 +7,34 @@ public class CartController:BaseController{
     const string CartToken = "CartToken";
     VnPaymentService paymentService;
     public CartController(VnPaymentService paymentService)  => this.paymentService = paymentService;
+
+    public IActionResult Check(Cart obj){
+        //return Json(obj);
+        string ?code = Request.Cookies[CartToken];
+        if(string.IsNullOrEmpty(code)){
+            return Json(0);
+        }
+        obj.CartCode = code; 
+        return Json(Provider.Cart.UpdateChecked(obj));
+    }
+    
+    public IActionResult Invoice(long id){
+        Invoice? obj = Provider.Invoice.GetInvoice(id);
+        if(obj != null){
+            return View(obj);
+        }
+        return Redirect("/");
+    }
+    public IActionResult Edit(Cart obj){
+        //return Json(obj);
+        string ?code = Request.Cookies[CartToken];
+        if(string.IsNullOrEmpty(code)){
+            return Json(0);
+        }
+        obj.CartCode = code; 
+        return Json(Provider.Cart.UpdateQuantity(obj));
+    }
+
     public IActionResult VnPayment(Invoice obj){
         string? code = Request.Cookies[CartToken];
         if(string.IsNullOrEmpty(code)){
@@ -59,8 +87,14 @@ public class CartController:BaseController{
         }
         return Redirect("/cart/error");
     }
-    public IActionResult Checkout()
-    {
+    public IActionResult Checkout(){
+        string? code = Request.Cookies[CartToken];
+        if(string.IsNullOrEmpty(code)){
+            return Redirect("/");
+        }
+        IEnumerable<Cart> carts = Provider.Cart.GetCartsChecked(code);
+        ViewBag.Carts = carts;
+        ViewBag.Total = carts.Sum(p=> p.Price * p.Quantity);
      return View();   
     }
 
@@ -73,7 +107,7 @@ public class CartController:BaseController{
         obj.CartCode = code;
         int ret = Provider.Invoice.Add(obj);
         if(ret > 0){
-            return Redirect($"/cart/invoice/{obj}.InvoiceId");
+            return Redirect($"/cart/invoice/{obj.InvoiceId}");
         }
         return View(obj);
     }

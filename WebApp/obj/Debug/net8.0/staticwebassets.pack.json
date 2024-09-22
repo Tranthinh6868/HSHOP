@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
       "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
     },
@@ -127,6 +135,70 @@
     {
       "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\brands.css",
+      "PackagePath": "staticwebassets\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\regular.css",
+      "PackagePath": "staticwebassets\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\solid.css",
+      "PackagePath": "staticwebassets\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\css\\v5-font-face.min.css"
     },
     {
       "Id": "C:\\Data\\CSharp\\HSHOP\\WebApp\\wwwroot\\images\\Loai11.jpeg",

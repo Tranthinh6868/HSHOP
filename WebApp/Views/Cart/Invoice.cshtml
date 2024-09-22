@@ -1,0 +1,15 @@
+@model Invoice
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">@Model.InvoiceId</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col" >Ngày mua hàng</div>
+            <div class="col">@Model.InvoiceDate</div>
+            <div class="col">Họ Tên</div>
+            <div class="col">@Model.Fullname</div>
+        </div>
+
+    </div>
+</div>

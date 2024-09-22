@@ -210,17 +210,17 @@ CREATE PROC AddInvoice(
 	@Address nvarchar(64) ,
 	@Phone varchar(16) ,
 	@Amount DECIMAL OUT
-
 )
 AS 
 BEGIN
-	SELECT @Amount = SUM(Cart.Quantity * Product.Price) FROM Cart JOIN Product ON Cart.ProductId = Product.ProductId AND CartCode = @CartCode
+	SELECT @Amount = SUM(Cart.Quantity * Product.Price) FROM Cart JOIN Product ON Checked = 1 
+	AND Cart.ProductId = Product.ProductId AND CartCode = @CartCode
 	INSERT INTO Invoice(InvoiceId , Fullname, Email, Address , Phone) 
 		VALUES (@InvoiceId , @Fullname, @Email, @Address , @Phone)
 	INSERT INTO InvoiceDetail(InvoiceId, ProductId, Quantity , Price)
 		SELECT @InvoiceId,Cart.ProductId, Cart.Quantity, Product.Price 
-		FROM Cart JOIN Product ON Cart.ProductId = Product.ProductId AND CartCode = @CartCode;
-	DELETE FROM Cart WHERE CartCode = @CartCode
+		FROM Cart JOIN Product ON Cart.Checked = 1 AND Cart.ProductId = Product.ProductId AND CartCode = @CartCode;
+	DELETE FROM Cart WHERE CartCode = @CartCode AND Checked =1 ;
 END
 
 
@@ -238,3 +238,6 @@ CREATE TABLE VnPayment(
      TransaactionStatus VARCHAR(128),
      TxnRef VARCHAR(128),
 );
+
+ALTER TABLE Cart ADD Checked BIT NOT NULL DEFAULT 0;
+GO
