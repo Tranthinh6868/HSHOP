@@ -21,6 +21,25 @@
                 </div>
             </div>
             <div>
+                <label class="form-label" for="pid">Province</label>
+                <div>
+                    <select  id="pid" asp-items="@ViewBag.Provinces"></select>
+                </div>
+            </div>
+                        <div>
+                <label class="form-label" for="did">District</label>
+                <div>
+                    <select  id="did"></select>
+                </div>
+            </div>
+            <div>
+                <label class="form-label" for="wid">Ward</label>
+                <div>
+                    <select asp-for="WardId"  id="wid"></select>
+                </div>
+            </div>
+
+            <div>
                 <label class="form-label" asp-for="Address">Address</label>
                 <div>
                     <input class="form-control" type="text" asp-for="Address">
@@ -77,9 +96,39 @@
 
 </div>
 
-<Script>
-    $(btnVnPayment).click(function(){
+<script>
+    function wards(id) {
+        $.post('/cart/ward', { 'id': id }, (d) => {
+            $(wid).empty();
+            for (let i in d) {
+                $(wid).append(`<option value="${d[i]['wardId']}">${d[i]['wardName']}</option>`);
+            }
+        });
+    }
+
+    function districts(id) {
+        $.post('/cart/district', { 'id': id }, (d) => {
+            $(did).empty();
+            for (let i in d) {
+                $(did).append(`<option value="${d[i]['districtId']}">${d[i]['districtName']}</option>`);
+            }
+            wards($(did).val());
+        });
+    }
+
+    districts($(pid).val());
+
+    $(did).change(function () {
+        wards($(this).val());
+    });
+
+    $(pid).change(function () {
+        districts($(this).val());
+    });
+
+    $(btnVnPayment).click(function () {
         $(frm).attr('action', '/cart/vnpayment');
         $(frm).submit();
     });
-</Script>
+</script>
+

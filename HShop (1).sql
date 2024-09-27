@@ -179,6 +179,7 @@ CREATE TABLE Invoice(
 	Phone varchar(16) Not Null
 );
 Go 
+--DROP TABLE InvoiceDetails
 CREATE TABLE InvoiceDetail(
 	InvoiceId BIGINT NOT NULL PRIMARY KEY,
 	ProductId INT NOT NULL,
@@ -186,27 +187,31 @@ CREATE TABLE InvoiceDetail(
 	Price DECIMAL NOT NULL
 );
 GO
+--Drop table Invoice
 CREATE TABLE Invoice(
 	InvoiceId BIGINT NOT NULL PRIMARY KEY,
 	Fullname NVARCHAR (64) NOT NULL,
 	Email VARCHAR(64) NOT NULL,
+	WardId INT NOT NULL REFERENCES Ward(WardId),
 	Address NVARCHAR(64) NOT NULL,
 	Phone VARCHAR(16) NOT NULL,
 	InvoiceDate DateTime NOT NULL DEFAULT GETDATE()
 );
 GO
+ALTER TABLE Invoice ADD WardId INT;
 CREATE TABLE InvoiceDetail(
 	InvoiceId BIGINT NOT NULL,
 	ProductId INT NOT NULL,
 	Quantity INT NOT NULL,
 	Price DECIMAL NOT NULL
 );
-
+--DROP PROC AddInvoice
 CREATE PROC AddInvoice(
 	@CartCode CHAR(32),
 	@InvoiceId BIGINT ,
 	@Fullname nvarchar(64) ,
 	@Email varchar(64) ,
+	@WardId INT,
 	@Address nvarchar(64) ,
 	@Phone varchar(16) ,
 	@Amount DECIMAL OUT
@@ -215,9 +220,9 @@ AS
 BEGIN
 	SELECT @Amount = SUM(Cart.Quantity * Product.Price) FROM Cart JOIN Product ON Checked = 1 
 	AND Cart.ProductId = Product.ProductId AND CartCode = @CartCode
-	INSERT INTO Invoice(InvoiceId , Fullname, Email, Address , Phone) 
-		VALUES (@InvoiceId , @Fullname, @Email, @Address , @Phone)
-	INSERT INTO InvoiceDetail(InvoiceId, ProductId, Quantity , Price)
+	INSERT INTO Invoice(InvoiceId , Fullname, Email,WardId,  Address , Phone) 
+		VALUES (@InvoiceId , @Fullname, @Email,@WardId,  @Address , @Phone)
+	INSERT INTO InvoiceDetails(InvoiceId, ProductId, Quantity , Price)
 		SELECT @InvoiceId,Cart.ProductId, Cart.Quantity, Product.Price 
 		FROM Cart JOIN Product ON Cart.Checked = 1 AND Cart.ProductId = Product.ProductId AND CartCode = @CartCode;
 	DELETE FROM Cart WHERE CartCode = @CartCode AND Checked =1 ;
@@ -240,4 +245,22 @@ CREATE TABLE VnPayment(
 );
 
 ALTER TABLE Cart ADD Checked BIT NOT NULL DEFAULT 0;
+GO
+--DROP PROC GetInvoice
+CREATE PROC GetInvoice(@Id BIGINT)
+AS
+SELECT Invoice.*,WardName, ProvinceName, DistrictName FROM Invoice 
+					JOIN Ward ON InvoiceId = @Id AND Invoice.WardId = Ward.WardId
+					Join District ON Ward.DistrictId = District.DistrictId
+					Join Province ON District.ProvinceId = Province.ProvinceId;
+
+GO
+CREATE PROC GetInvoiceWithDetails(@Id BIGINT)
+AS
+SELECT Invoice.*,WardName, ProvinceName, DistrictName FROM Invoice 
+					JOIN Ward ON InvoiceId = @Id AND Invoice.WardId = Ward.WardId
+					Join District ON Ward.DistrictId = District.DistrictId
+					Join Province ON District.ProvinceId = Province.ProvinceId;
+SELECT InvoiceDetails.*, ProductName , Image FROM InvoiceDetails JOIN 
+	Product On InvoiceId = @Id ANd InvoiceDetails.ProductId = Product.ProductId
 GO

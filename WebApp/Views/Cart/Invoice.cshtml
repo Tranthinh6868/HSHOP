@@ -9,7 +9,45 @@
             <div class="col">@Model.InvoiceDate</div>
             <div class="col">Họ Tên</div>
             <div class="col">@Model.Fullname</div>
+            <div class="col">Email</div>
+            <div class="col">@Model.Email</div>
+            <div class="col">Số điện thoại</div>
+            <div class="col">@Model.Phone</div>
         </div>
-
+        <div class="row">
+            <div class="col">Thành Phố/Tỉnh</div>
+            <div class="col">@Model.ProvinceName</div>
+            <div class="col">Quận/Huyện</div>
+            <div class="col">@Model.DistrictName</div>
+            <div class="col">Phường xã</div>
+            <div class="col">@Model.WardName</div>
+            <div class="col">Địa chỉ</div>
+            <div class="col">@Model.Address</div>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <th>Name</th>
+                <th>Imange</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Amount</th>
+            </thead>
+            
+        </table>
+        <tbody>
+            @if(Model.InvoiceDetails !=null){
+                @foreach(var item in Model.InvoiceDetails){
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>
+                            <img width="80" src="/images/products/@item.Image" alt="@item.ProductName">
+                        </td>
+                        <td>@item.Price</td>
+                        <td>@item.Quantity</td>
+                        <td>@(item.Price * item.Quantity)</td>
+                    </tr>
+                    }
+                }
+        </tbody>
     </div>
 </div>

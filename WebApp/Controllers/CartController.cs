@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using WebApp.Models;
 using WebApp.Services;
 
@@ -19,10 +20,16 @@ public class CartController:BaseController{
     }
     
     public IActionResult Invoice(long id){
-        Invoice? obj = Provider.Invoice.GetInvoice(id);
+        // Invoice? obj = Provider.Invoice.GetInvoice(id);
+        // if(obj != null){
+        //     obj.InvoiceDetails = Provider.InvoiceDetailsRepository.GetInvoiceDetails(id);
+        //     return View(obj);
+        // }
+        Invoice? obj = Provider.Invoice.GetInvoiceWithDetails(id);
         if(obj != null){
             return View(obj);
         }
+
         return Redirect("/");
     }
     public IActionResult Edit(Cart obj){
@@ -87,11 +94,20 @@ public class CartController:BaseController{
         }
         return Redirect("/cart/error");
     }
+    [HttpPost]
+    public IActionResult District(byte id){
+        return Json(Provider.District.GetDistricts(id));
+    }
+    [HttpPost]
+    public IActionResult Ward(int id){
+        return Json(Provider.Ward.GetWards(id));
+    }
     public IActionResult Checkout(){
         string? code = Request.Cookies[CartToken];
         if(string.IsNullOrEmpty(code)){
             return Redirect("/");
         }
+        ViewBag.Provinces = new SelectList( Provider.Province.GetProvinces() , "ProvinceId", "ProvinceName");
         IEnumerable<Cart> carts = Provider.Cart.GetCartsChecked(code);
         ViewBag.Carts = carts;
         ViewBag.Total = carts.Sum(p=> p.Price * p.Quantity);

@@ -7,11 +7,19 @@ public class InvoiceRepository : BaseRepository{
     public InvoiceRepository(IDbConnection connection) : base(connection){
 
     }
-
-  
+    public Invoice? GetInvoiceWithDetails(long id)
+            {
+                var grid = connection.QueryMultiple("GetInvoiceWithDetails", new { id }, commandType: CommandType.StoredProcedure);
+                Invoice? obj = grid.ReadSingleOrDefault<Invoice>();
+                if (obj != null)
+                {
+                    obj.InvoiceDetails = grid.Read<InvoiceDetails>();
+                }
+                return obj;
+            }    
 
     public Invoice? GetInvoice(long id){
-        return connection.QuerySingleOrDefault<Invoice>("SELECT * FROM Invoice WHERE InvoiceId = @Id", new{id});
+        return connection.QuerySingleOrDefault<Invoice>("GetInvoice", new{id}, commandType: CommandType.StoredProcedure);
     }
     public int Add(Invoice obj){
         Random random = new Random();
@@ -22,6 +30,7 @@ public class InvoiceRepository : BaseRepository{
         parameters.Add("@InvoiceId", obj.InvoiceId);
         parameters.Add("@Fullname", obj.Fullname);
         parameters.Add("@Email", obj.Email);
+        parameters.Add("@WardId", obj.WardId);
         parameters.Add("@Address", obj.Address);
         parameters.Add("@Phone", obj.Phone);
         parameters.Add("@Amount", dbType: DbType.Decimal, direction: ParameterDirection.Output);
